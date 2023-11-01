@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Websites in One Frame</title>
+    <style>
+        /* Style for the left iframe */
+        #leftFrame {
+            float: left;
+            width: 50%;
+            height: 100vh; /* Use viewport height */
+            border: none;
+        }
+
+        /* Style for the right iframe */
+        #rightFrame {
+            float: right;
+            width: 50%;
+            height: 100vh; /* Use viewport height */
+            border: none;
+        }
+
+        /* Clear floats to prevent layout issues */
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0;">
+    <iframe id="leftFrame" src="https://work4.dialerhosting.com/agc/vicidial.php#"></iframe>
+    <iframe id="rightFrame" src="https://abidkhan02.github.io/soundboard.github.io/"></iframe>
+    <div class="clear"></div>
+</body>
+</html>
